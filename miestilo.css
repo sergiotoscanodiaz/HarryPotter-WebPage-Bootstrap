@@ -1,4 +1,7 @@
-          /******* Fuentes usadas *******/
+       /******* Color de fondo *******/
+      body{background-color: black;}
+
+      /******* Fuentes usadas *******/
       @font-face {
           font-family:Harry;
           src: url("fuentes/HARRYP__.TTF");
