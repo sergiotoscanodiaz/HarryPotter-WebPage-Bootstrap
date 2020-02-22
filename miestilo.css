@@ -1,0 +1,77 @@
+          /******* Fuentes usadas *******/
+      @font-face {
+          font-family:Harry;
+          src: url("fuentes/HARRYP__.TTF");
+       }      
+       /****** Sticky navbar ********/
+       nav {top:0;
+            font-family: Harry;
+            font-size: 24px;
+            z-index:99;}
+       .bg-black {background-color: rgba(0, 0, 0, 0.678);}
+       /****** estilo para jumbotron ****/
+       .jumbotron {background-image: url("imagenes/hero.jpg");
+                   background-size: cover;
+                   background-position:center;
+                   color: rgba(233, 226, 226, 0.898);
+                   height:100vh;}
+
+       .mt-6 {margin-top:20vh;}
+       
+       #contraste-jumbotron {background-color: rgba(0, 0, 0, 0.137);
+                             margin:0 auto;
+                            }
+       /****** estilo para sipnosis ****/
+       #sinopsis {background-image: url("imagenes/sinopsis.jpg");
+                  background-position:center;
+                  }   
+
+        #titulosinopsis {font-family: Harry;}
+                        
+       
+       #contraste-sinopsis {background-color: rgba(219, 212, 212, 0.862);
+                            margin:0 auto;
+                           }
+       /****** estilo para libros ********/
+       #libros {background-image: url("imagenes/tilehp.png");
+                background-position:center;                
+               }    
+
+       #titulolibros{font-family: Harry;}           
+            
+       /****** estilo para personajes ****/
+       #personajes {background-image: url("imagenes/personajes.jpg");
+                    background-size: cover;
+                    background-position:center;
+                    }
+                 
+       #titulopersonajes {color: rgba(255, 255, 255);
+                          font-family: Harry;}
+
+       #cita {background-color: rgb(255, 255, 255, 0.6);}
+
+       #citafooter {color: rgba(0, 0, 0, 0.8);}
+
+       /****** estilo para galería ****/
+       #galeria {background-image: url("imagenes/tile-galeria.jpg");
+                 background-position:center;
+                 }
+
+      /****** estilo para contacto ****/
+      #contacto {background-image: url("imagenes/contacto.jpg");
+                 background-position:center;
+                 font-size: 18px;
+                }
+
+      #titulocontacto{font-family: Harry;} 
+
+      /******** Footer style **********/
+      footer ul {list-style-type: none;}
+
+      footer ul li a {color:white;}
+
+      footer ul  {margin:0;
+                  padding:0;}
+
+      footer .fa {font-size:2em;
+                  margin-right:5px;}
