@@ -468,6 +468,7 @@
           <div class="section-title my-5">
             <p id="titulocontacto" class="display-4 font-weight-bold border-bottom border-dark w-75 text-center mx-auto">Contacto</p>
           </div>
+
            <div class="container-fluid">
              <div class="row">
                  <div class="col-12 col-md-12 mx-auto px-5">
@@ -484,20 +485,65 @@
                  <div class="col-8 col-md-6 mx-auto my-5 ">
                    <!-- FORMULARIO DE CONTACTO -->
                   <form action="" method="GET" >
+
                     <div class="form-group">
-                      <label for="exampleInputEmail1">Dirección de correo</label>
+                      <label for="exampleInputEmail1">Nombre</label>
                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <small id="emailHelp" class="form-text text-muted">Teclea una dirección correcta</small>
+                      <small id="emailHelp" class="form-text text-muted">Nombre obligatorio para reconocerle</small>
                     </div>
+    
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Correo electrónico</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">Ponga una dirección correcta</small>
+                    </div>
+    
                     <div class="form-group">
                       <label for="exampleInputPassword1">Contraseña</label>
                       <input type="password" class="form-control" id="exampleInputPassword1">
                     </div>
-                    <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Acepto las condiciones de uso</label>
-                    </div>
+    
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Repite la contraseña</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+    
+                      <!-- Button trigger modal--> 
+                      <button type="button" class="btn btn-danger mt-4" data-toggle="modal" data-target="#condiciones">
+                        Condiciones de uso
+                      </button>
+                      <!-- Modal -->
+                      <div class="modal fade" id="condiciones" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable" role="document">
+                          <div class="modal-content">
+    
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalCenterTitle">Condiciones de uso</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+    
+                            <div class="modal-body">
+                              Condiciones de uso: <hr> Usted cuando pulse "Darse de alta" recibirá un correo de confirmación. Gracias por su comprensión.
+                            </div>
+    
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+    
+                          </div>
+                        </div>
+                      </div>
+                      <!-- AQUÍ TERMINA LA VENTANA MODAL -->
+    
+                      <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Acepto las condiciones de uso</label>
+                      </div>                                                  
+                    
                     <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
+                     
                   </form>
                 </div>
              </div>
